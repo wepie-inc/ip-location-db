@@ -1902,6 +1902,8 @@
 2001:678:e14::,2001:678:e14:ffff:ffff:ffff:ffff:ffff,CH
 2001:678:e18::,2001:678:e18:ffff:ffff:ffff:ffff:ffff,CH
 2001:678:e1c::,2001:678:e1c:ffff:ffff:ffff:ffff:ffff,CH
+2001:678:e20::,2001:678:e20:ffff:ffff:ffff:ffff:ffff,NL
+2001:678:e24::,2001:678:e24:ffff:ffff:ffff:ffff:ffff,LV
 2001:678:e4::,2001:678:e4:ffff:ffff:ffff:ffff:ffff,SE
 2001:678:e8::,2001:678:e8:ffff:ffff:ffff:ffff:ffff,CZ
 2001:678:e::,2001:678:e:ffff:ffff:ffff:ffff:ffff,DE
@@ -7123,7 +7125,9 @@
 2001:df4:b500::,2001:df4:b500:ffff:ffff:ffff:ffff:ffff,ID
 2001:df4:b580::,2001:df4:b580:ffff:ffff:ffff:ffff:ffff,BD
 2001:df4:b600::,2001:df4:b600:ffff:ffff:ffff:ffff:ffff,AU
-2001:df4:b80::,2001:df4:b80:ffff:ffff:ffff:ffff:ffff,ID
+2001:df4:b680::,2001:df4:b680:ffff:ffff:ffff:ffff:ffff,AU
+2001:df4:b780::,2001:df4:b780:ffff:ffff:ffff:ffff:ffff,ID
+2001:df4:b880::,2001:df4:b880:ffff:ffff:ffff:ffff:ffff,TH
 2001:df4:b900::,2001:df4:b900:ffff:ffff:ffff:ffff:ffff,LA
 2001:df4:ba00::,2001:df4:ba01:ffff:ffff:ffff:ffff:ffff,PH
 2001:df4:bb00::,2001:df4:bb00:ffff:ffff:ffff:ffff:ffff,TH
@@ -7290,7 +7294,6 @@
 2001:df5:6a00::,2001:df5:6a00:ffff:ffff:ffff:ffff:ffff,MV
 2001:df5:6b00::,2001:df5:6b00:ffff:ffff:ffff:ffff:ffff,AU
 2001:df5:6d00::,2001:df5:6d00:ffff:ffff:ffff:ffff:ffff,AU
-2001:df5:6e00::,2001:df5:6e00:ffff:ffff:ffff:ffff:ffff,NC
 2001:df5:6f00::,2001:df5:6f00:ffff:ffff:ffff:ffff:ffff,AU
 2001:df5:7000::,2001:df5:7000:ffff:ffff:ffff:ffff:ffff,ID
 2001:df5:700::,2001:df5:700:ffff:ffff:ffff:ffff:ffff,NZ
@@ -13824,11 +13827,16 @@
 2406:6600::,2406:6600:ffff:ffff:ffff:ffff:ffff:ffff,KR
 2406:6640::,2406:6640:ffff:ffff:ffff:ffff:ffff:ffff,CN
 2406:6680::,2406:6680:ffff:ffff:ffff:ffff:ffff:ffff,CN
+2406:66c0::,2406:66c0:ffff:ffff:ffff:ffff:ffff:ffff,DK
 2406:6700::,2406:6700:ffff:ffff:ffff:ffff:ffff:ffff,AU
+2406:6740::,2406:6741:ffff:ffff:ffff:ffff:ffff:ffff,AU
 2406:6780::,2406:6780:ffff:ffff:ffff:ffff:ffff:ffff,CN
+2406:67c0::,2406:67c0:ffff:ffff:ffff:ffff:ffff:ffff,TW
 2406:6800::,2406:6800:ffff:ffff:ffff:ffff:ffff:ffff,KR
 2406:680::,2406:680:ffff:ffff:ffff:ffff:ffff:ffff,SG
+2406:6840::,2406:6840:ffff:ffff:ffff:ffff:ffff:ffff,NP
 2406:6880::,2406:6880:ffff:ffff:ffff:ffff:ffff:ffff,CN
+2406:68c0::,2406:68c0:ffff:ffff:ffff:ffff:ffff:ffff,IN
 2406:6900::,2406:6900:ffff:ffff:ffff:ffff:ffff:ffff,AU
 2406:6980::,2406:6980:ffff:ffff:ffff:ffff:ffff:ffff,CN
 2406:6a00::,2406:6a00:ffff:ffff:ffff:ffff:ffff:ffff,KR
@@ -17262,6 +17270,7 @@
 2605:ea80::,2605:ea80:ffff:ffff:ffff:ffff:ffff:ffff,US
 2605:eac0::,2605:eac0:ffff:ffff:ffff:ffff:ffff:ffff,US
 2605:eb00::,2605:eb00:ffff:ffff:ffff:ffff:ffff:ffff,US
+2605:eb40::,2605:eb40:ffff:ffff:ffff:ffff:ffff:ffff,US
 2605:ec00::,2605:ec00:ffff:ffff:ffff:ffff:ffff:ffff,US
 2605:ec80::,2605:ec80:ffff:ffff:ffff:ffff:ffff:ffff,US
 2605:ed00::,2605:ed00:ffff:ffff:ffff:ffff:ffff:ffff,US
@@ -22152,6 +22161,7 @@
 2803:2f80::,2803:2f80:ffff:ffff:ffff:ffff:ffff:ffff,CL
 2803:2fa0::,2803:2fa0:ffff:ffff:ffff:ffff:ffff:ffff,PE
 2803:2fc0::,2803:2fc0:ffff:ffff:ffff:ffff:ffff:ffff,HN
+2803:2fe0::,2803:2fe0:ffff:ffff:ffff:ffff:ffff:ffff,HN
 2803:3000::,2803:3000:ffff:ffff:ffff:ffff:ffff:ffff,PA
 2803:3020::,2803:3020:ffff:ffff:ffff:ffff:ffff:ffff,EC
 2803:3040::,2803:3040:ffff:ffff:ffff:ffff:ffff:ffff,CW
@@ -23182,6 +23192,7 @@
 2803:af80::,2803:af80:ffff:ffff:ffff:ffff:ffff:ffff,PY
 2803:afa0::,2803:afa0:ffff:ffff:ffff:ffff:ffff:ffff,AR
 2803:afc0::,2803:afc0:ffff:ffff:ffff:ffff:ffff:ffff,AR
+2803:afe0::,2803:afe0:ffff:ffff:ffff:ffff:ffff:ffff,AR
 2803:b000::,2803:b000:ffff:ffff:ffff:ffff:ffff:ffff,CO
 2803:b00::,2803:b00:ffff:ffff:ffff:ffff:ffff:ffff,EC
 2803:b020::,2803:b020:ffff:ffff:ffff:ffff:ffff:ffff,AR
@@ -23444,6 +23455,7 @@
 2803:cf80::,2803:cf80:ffff:ffff:ffff:ffff:ffff:ffff,AR
 2803:cfa0::,2803:cfa0:ffff:ffff:ffff:ffff:ffff:ffff,DO
 2803:cfc0::,2803:cfc0:ffff:ffff:ffff:ffff:ffff:ffff,UY
+2803:cfe0::,2803:cfe0:ffff:ffff:ffff:ffff:ffff:ffff,CL
 2803:d000::,2803:d000:ffff:ffff:ffff:ffff:ffff:ffff,BZ
 2803:d00::,2803:d00:ffff:ffff:ffff:ffff:ffff:ffff,GY
 2803:d020::,2803:d020:ffff:ffff:ffff:ffff:ffff:ffff,CR
@@ -25929,7 +25941,6 @@
 2804:3348::,2804:3348:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:334c::,2804:334c:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:3350::,2804:3350:ffff:ffff:ffff:ffff:ffff:ffff,BR
-2804:3354::,2804:3354:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:3358::,2804:3358:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:335c::,2804:335c:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:3360::,2804:3360:ffff:ffff:ffff:ffff:ffff:ffff,BR
@@ -30342,6 +30353,10 @@
 2804:7918::,2804:7918:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:791c::,2804:791c:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:7920::,2804:7920:ffff:ffff:ffff:ffff:ffff:ffff,BR
+2804:7924::,2804:7924:ffff:ffff:ffff:ffff:ffff:ffff,BR
+2804:7928::,2804:7928:ffff:ffff:ffff:ffff:ffff:ffff,BR
+2804:792c::,2804:792c:ffff:ffff:ffff:ffff:ffff:ffff,BR
+2804:7930::,2804:7930:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2806:1000::,2806:10ff:ffff:ffff:ffff:ffff:ffff:ffff,MX
 2a00:1000::,2a00:1000:ffff:ffff:ffff:ffff:ffff:ffff,DE
 2a00:1008::,2a00:1008:ffff:ffff:ffff:ffff:ffff:ffff,NO
@@ -48208,10 +48223,14 @@
 2a10:5700::,2a10:5707:ffff:ffff:ffff:ffff:ffff:ffff,HR
 2a10:5740::,2a10:5747:ffff:ffff:ffff:ffff:ffff:ffff,IR
 2a10:5780::,2a10:5787:ffff:ffff:ffff:ffff:ffff:ffff,NL
+2a10:57c0::,2a10:57c7:ffff:ffff:ffff:ffff:ffff:ffff,DE
 2a10:5800::,2a10:5807:ffff:ffff:ffff:ffff:ffff:ffff,NL
 2a10:580::,2a10:587:ffff:ffff:ffff:ffff:ffff:ffff,RU
+2a10:5840::,2a10:5847:ffff:ffff:ffff:ffff:ffff:ffff,NL
 2a10:5880::,2a10:5887:ffff:ffff:ffff:ffff:ffff:ffff,NL
+2a10:58c0::,2a10:58c7:ffff:ffff:ffff:ffff:ffff:ffff,FR
 2a10:5900::,2a10:5907:ffff:ffff:ffff:ffff:ffff:ffff,NL
+2a10:5940::,2a10:5947:ffff:ffff:ffff:ffff:ffff:ffff,DK
 2a10:5980::,2a10:5987:ffff:ffff:ffff:ffff:ffff:ffff,NL
 2a10:5a00::,2a10:5a07:ffff:ffff:ffff:ffff:ffff:ffff,NL
 2a10:5a80::,2a10:5a87:ffff:ffff:ffff:ffff:ffff:ffff,NL
@@ -48388,6 +48407,7 @@
 2c0f:e970::,2c0f:e970:ffff:ffff:ffff:ffff:ffff:ffff,BW
 2c0f:e978::,2c0f:e978:ffff:ffff:ffff:ffff:ffff:ffff,ZA
 2c0f:e980::,2c0f:e980:ffff:ffff:ffff:ffff:ffff:ffff,NG
+2c0f:e988::,2c0f:e988:ffff:ffff:ffff:ffff:ffff:ffff,ZA
 2c0f:ea00::,2c0f:ea00:ffff:ffff:ffff:ffff:ffff:ffff,ZA
 2c0f:ea08::,2c0f:ea08:ffff:ffff:ffff:ffff:ffff:ffff,ZA
 2c0f:ea10::,2c0f:ea10:ffff:ffff:ffff:ffff:ffff:ffff,SL
