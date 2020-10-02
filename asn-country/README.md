@@ -13,16 +13,34 @@
 | [GeoLite2](https://dev.maxmind.com/geoip/geoip2/geolite2/)<br>[![npm version](https://img.shields.io/npm/v/@ip-location-db/geolite2-country?color=success&style=flat-square&label=%20)](https://www.npmjs.com/package/@ip-location-db/geolite2-country)| Country | GeoLite2 License by [MaxMind](https://www.maxmind.com/)<sup>&hearts;</sup> | Weekly  | [geolite2-country-ipv4.csv](https://cdn.jsdelivr.net/npm/@ip-location-db/geolite2-country/geolite2-country-ipv4.csv) | [geolite2-country-ipv6.csv](https://cdn.jsdelivr.net/npm/@ip-location-db/geolite2-country/geolite2-country-ipv6.csv) | [geolite2-country-ipv4-num.csv](https://cdn.jsdelivr.net/npm/@ip-location-db/geolite2-country/geolite2-country-ipv4-num.csv) | [geolite2-country-ipv6-num.csv](https://cdn.jsdelivr.net/npm/@ip-location-db/geolite2-country/geolite2-country-ipv6-num.csv) |
 | [GeoLite2](https://dev.maxmind.com/geoip/geoip2/geolite2/)<br>[![npm version](https://img.shields.io/npm/v/@ip-location-db/geolite2-city?color=success&style=flat-square&label=%20)](https://www.npmjs.com/package/@ip-location-db/geolite2-city)| City | GeoLite2 License by [MaxMind](https://www.maxmind.com/)<sup>&hearts;</sup> | Weekly  | [geolite2-city-ipv4.csv.gz](https://github.com/sapics/ip-location-db/raw/master/geolite2-city/geolite2-city-ipv4.csv.gz) | [geolite2-city-ipv6.csv.gz](https://github.com/sapics/ip-location-db/raw/master/geolite2-city/geolite2-city-ipv6.csv.gz) | [geolite2-city-ipv4-num.csv.gz](https://github.com/sapics/ip-location-db/raw/master/geolite2-city/geolite2-city-ipv4-num.csv.gz) | [geolite2-city-ipv6-num.csv.gz](https://github.com/sapics/ip-location-db/raw/master/geolite2-city/geolite2-city-ipv6-num.csv.gz) |
 
+## CSV format
 
-This project provides ip to location database in csv.<br>
-Country csv format: `ip_range_start, ip_range_end, country_code`<br>
-City csv format: `ip_range_start, ip_range_end, country_code, state1, state2, city, postcode, latitude, longitude, timezone`<br>
+This project provides ip to location database in csv format.
+
+#### Country csv format
+`ip_range_start, ip_range_end, country_code`
+
+#### City csv format
+`ip_range_start, ip_range_end, country_code, state1, state2, city, postcode, latitude, longitude, timezone`
+
+##### country_code
 `country_code` is the two-letter code defined in [ISO 3166-1 alpha-2](https://wikipedia.org/wiki/ISO_3166-1_alpha-2).
 You can get the `country name, capital, continent, currency, languages, etc.` from the `country_code` by [Countries Database](https://github.com/annexare/Countries) in JSON, CSV, SQL format.
 
+##### ip address format
+`ip_range_start` and `ip_range_end` is ip address.
+- `ipv4`: The csv line `1.0.0.0,1.0.0.255,AU` means that ip addresses between `1.0.0.0` and `1.0.0.255` inclusive are `AU` country_code.
+- `ipv4-num`: The csv line `16777216,16777471,AU` means that ip addresses between `1.0.0.0` and `1.0.0.255` inclusive are `AU` country_code. (`16777216` is the number format of the ip address `1.0.0.0`)
+- `ipv6`: The csv line `2001:200::,2001:200:ffff:ffff:ffff:ffff:ffff:ffff,JP` means that ip addresses between `2001:200::` and `2001:200:ffff:ffff:ffff:ffff:ffff:ffff` inclusive are `JP` country_code.
+- `ipv6-num`: The csv line `42540528726795050063891204319802818560,42540528806023212578155541913346768895,JP` means that ip addresses between `2001:200::` and `2001:200:ffff:ffff:ffff:ffff:ffff:ffff` inclusive are `JP` country_code. (`42540528726795050063891204319802818560` is the number format of the ip address `2001:200::`)
+
+Please be careful when using `ipv6` and `ipv6-num` in your program. The numerical value exceeds 32bit unsigned integer, so you need to use 64bit unsigned integer.
+
+
+## Databases referenced in this project
+
 When merging multiple database, set the front database above back one.
 (ex. geo-whois-asn-...csv is created by merging 3 database with GeoFeed > Whois > ASN.)
-
 
 
 ### ASN database [Update: Daily]
@@ -100,4 +118,5 @@ But the above list is too long, thus, we write down the recommendation.
 
 License depends on the database which you use. Please read carefully each database license.
 You can use [PDDL](https://opendatacommons.org/licenses/pddl/1.0/) (ODC Public Domain Dedication and Licence) or [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed) (Creative Commons Zero) licensed database without attribution for any purpose.
-We are glad if you make a link to [sapics/ip-location-db](https://github.com/sapics/ip-location-db).
+
+We are glad if you make a link to [sapics/ip-location-db](https://github.com/sapics/ip-location-db), or give us a star to [the github repository](https://github.com/sapics/ip-location-db).
