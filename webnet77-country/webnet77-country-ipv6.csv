@@ -3229,6 +3229,7 @@
 2001:67c:2918::,2001:67c:2918:ffff:ffff:ffff:ffff:ffff,FR
 2001:67c:291c::,2001:67c:291c:ffff:ffff:ffff:ffff:ffff,FR
 2001:67c:2920::,2001:67c:2920:ffff:ffff:ffff:ffff:ffff,AT
+2001:67c:2924::,2001:67c:2924:ffff:ffff:ffff:ffff:ffff,DE
 2001:67c:294::,2001:67c:294:ffff:ffff:ffff:ffff:ffff,NL
 2001:67c:2980::,2001:67c:2980:ffff:ffff:ffff:ffff:ffff,LV
 2001:67c:2984::,2001:67c:2984:ffff:ffff:ffff:ffff:ffff,CH
@@ -7701,7 +7702,6 @@
 2001:df5:c100::,2001:df5:c100:ffff:ffff:ffff:ffff:ffff,IN
 2001:df5:c180::,2001:df5:c180:ffff:ffff:ffff:ffff:ffff,BD
 2001:df5:c200::,2001:df5:c200:ffff:ffff:ffff:ffff:ffff,VN
-2001:df5:c280::,2001:df5:c280:ffff:ffff:ffff:ffff:ffff,NC
 2001:df5:c300::,2001:df5:c301:ffff:ffff:ffff:ffff:ffff,AU
 2001:df5:c380::,2001:df5:c380:ffff:ffff:ffff:ffff:ffff,IN
 2001:df5:c400::,2001:df5:c400:ffff:ffff:ffff:ffff:ffff,TH
@@ -7768,11 +7768,16 @@
 2001:df5:e280::,2001:df5:e280:ffff:ffff:ffff:ffff:ffff,ID
 2001:df5:e300::,2001:df5:e300:ffff:ffff:ffff:ffff:ffff,SG
 2001:df5:e380::,2001:df5:e380:ffff:ffff:ffff:ffff:ffff,AU
+2001:df5:e480::,2001:df5:e480:ffff:ffff:ffff:ffff:ffff,IN
 2001:df5:e500::,2001:df5:e500:ffff:ffff:ffff:ffff:ffff,ID
+2001:df5:e580::,2001:df5:e580:ffff:ffff:ffff:ffff:ffff,BD
 2001:df5:e600::,2001:df5:e600:ffff:ffff:ffff:ffff:ffff,AU
+2001:df5:e680::,2001:df5:e680:ffff:ffff:ffff:ffff:ffff,IN
 2001:df5:e700::,2001:df5:e700:ffff:ffff:ffff:ffff:ffff,BT
+2001:df5:e780::,2001:df5:e780:ffff:ffff:ffff:ffff:ffff,ID
 2001:df5:e800::,2001:df5:e800:ffff:ffff:ffff:ffff:ffff,PH
 2001:df5:e80::,2001:df5:e80:ffff:ffff:ffff:ffff:ffff,NP
+2001:df5:e880::,2001:df5:e880:ffff:ffff:ffff:ffff:ffff,IN
 2001:df5:e900::,2001:df5:e900:ffff:ffff:ffff:ffff:ffff,HK
 2001:df5:ea00::,2001:df5:ea00:ffff:ffff:ffff:ffff:ffff,AU
 2001:df5:eb00::,2001:df5:eb00:ffff:ffff:ffff:ffff:ffff,ID
@@ -14749,11 +14754,17 @@
 2407:1080::,2407:1080:ffff:ffff:ffff:ffff:ffff:ffff,HK
 2407:10c0::,2407:10c0:ffff:ffff:ffff:ffff:ffff:ffff,IN
 2407:1100::,2407:1100:ffff:ffff:ffff:ffff:ffff:ffff,MY
+2407:1140::,2407:1140:ffff:ffff:ffff:ffff:ffff:ffff,IN
 2407:1180::,2407:1180:ffff:ffff:ffff:ffff:ffff:ffff,CN
+2407:11c0::,2407:11c0:ffff:ffff:ffff:ffff:ffff:ffff,PK
 2407:1200::,2407:1200:ffff:ffff:ffff:ffff:ffff:ffff,JP
+2407:1240::,2407:1240:ffff:ffff:ffff:ffff:ffff:ffff,NC
 2407:1280::,2407:1280:ffff:ffff:ffff:ffff:ffff:ffff,PK
+2407:12c0::,2407:12c0:ffff:ffff:ffff:ffff:ffff:ffff,IN
 2407:1300::,2407:1300:ffff:ffff:ffff:ffff:ffff:ffff,MY
+2407:1340::,2407:1340:ffff:ffff:ffff:ffff:ffff:ffff,IN
 2407:1380::,2407:1380:ffff:ffff:ffff:ffff:ffff:ffff,HK
+2407:13c0::,2407:13c0:ffff:ffff:ffff:ffff:ffff:ffff,IN
 2407:1400::,2407:1400:ffff:ffff:ffff:ffff:ffff:ffff,NP
 2407:140::,2407:140:ffff:ffff:ffff:ffff:ffff:ffff,VN
 2407:1480::,2407:1480:ffff:ffff:ffff:ffff:ffff:ffff,MY
@@ -31550,6 +31561,8 @@
 2804:7e04::,2804:7e04:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:7e08::,2804:7e08:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2804:7e0c::,2804:7e0c:ffff:ffff:ffff:ffff:ffff:ffff,BR
+2804:7e10::,2804:7e10:ffff:ffff:ffff:ffff:ffff:ffff,BR
+2804:7e14::,2804:7e14:ffff:ffff:ffff:ffff:ffff:ffff,BR
 2806:1000::,2806:10ff:ffff:ffff:ffff:ffff:ffff:ffff,MX
 2a00:1000::,2a00:1000:ffff:ffff:ffff:ffff:ffff:ffff,DE
 2a00:1010::,2a00:1010:ffff:ffff:ffff:ffff:ffff:ffff,DE
@@ -46408,6 +46421,7 @@
 2a0d:76c0::,2a0d:76c7:ffff:ffff:ffff:ffff:ffff:ffff,GR
 2a0d:7700::,2a0d:7707:ffff:ffff:ffff:ffff:ffff:ffff,UA
 2a0d:7740::,2a0d:7747:ffff:ffff:ffff:ffff:ffff:ffff,RU
+2a0d:7780::,2a0d:7787:ffff:ffff:ffff:ffff:ffff:ffff,IR
 2a0d:77c0::,2a0d:77c7:ffff:ffff:ffff:ffff:ffff:ffff,US
 2a0d:7800::,2a0d:7807:ffff:ffff:ffff:ffff:ffff:ffff,ES
 2a0d:780::,2a0d:787:ffff:ffff:ffff:ffff:ffff:ffff,CH
@@ -46433,6 +46447,7 @@
 2a0d:7cc0::,2a0d:7cc7:ffff:ffff:ffff:ffff:ffff:ffff,UA
 2a0d:7d00::,2a0d:7d07:ffff:ffff:ffff:ffff:ffff:ffff,IQ
 2a0d:7d40::,2a0d:7d47:ffff:ffff:ffff:ffff:ffff:ffff,UA
+2a0d:7d80::,2a0d:7d87:ffff:ffff:ffff:ffff:ffff:ffff,UA
 2a0d:7dc0::,2a0d:7dc7:ffff:ffff:ffff:ffff:ffff:ffff,GB
 2a0d:7e40::,2a0d:7e40:ffff:ffff:ffff:ffff:ffff:ffff,FR
 2a0d:7e80::,2a0d:7e87:ffff:ffff:ffff:ffff:ffff:ffff,FR
